@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <script src="./code/aframe-v1.6.0.min.js"></script>
+    <script src="./code/aframe-ar.js"></script>
+	</head>
+
+    <body style="margin : 0px; overflow: hidden;">
+        <a-scene embedded arjs>
+           <a-marker type="pattern" url="./target/number_43.patt">
+	       <a-entity
+	    gltf-model="./models/usa_rocket.gltf" rotation="-90 0 0 " position="0 0 0" scale="0.004 0.004 0.004">
+               </a-entity> 
+	   </a-marker> 
+	  <a-entity camera></a-entity>      
+        </a-scene>
+    </body>
+</html>
